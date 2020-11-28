@@ -20,12 +20,12 @@ if __name__ == '__main__':
     resultado = Soma(int(input("Entre com o primeiro número: ")),
                      int(input("Entre com o segundo Valor: "))).soma_valores()
 
+    print(f'A soma entre os números é {resultado}')
     print(f'Os números digitados são do tipo {type(resultado)} ')
-    
 
 
 
-    print(resultado)
+
 
 
 
